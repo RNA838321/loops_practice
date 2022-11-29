@@ -11,7 +11,7 @@ int main()
 {
 	char mn;
 	printf("please enter a character:\n");
-	scanf("%d",&mn);
+	scanf("%c",&mn);
 	switch (mn)
 	{
 		case 'a' :
