@@ -17,7 +17,10 @@ int main()
 	ptr = fopen("hellow.txt","w");
 
 	ch = 'r';
+	//putchar('\n');
+
 	fputc(ch,ptr);
+	putchar('\n');
 
 	return (0);
 }

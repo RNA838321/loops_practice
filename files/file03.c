@@ -20,6 +20,7 @@ int main()
 	ptr = fopen("secondfile.txt","w");
 
 	fputs(string,ptr);
+	fclose(ptr);
 
 	return (0);
 }
